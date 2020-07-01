@@ -33,6 +33,13 @@
 # FileType{{{
 - repo: Shougo/context_filetype.vim
 
+- repo: openpix/vim-md-write
+  on_ft: markdown
+
+- repo: dhruvasagar/vim-table-mode
+  on_ft: markdown
+
+
 - { repo: MTDL9/vim-log-highlighting, on_ft: log }
 - repo: plasticboy/vim-markdown
   on_ft: markdown

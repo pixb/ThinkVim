@@ -600,6 +600,7 @@ endif
 function! s:load_normalmap() abort
   " Write buffer (save)
   nnoremap <C-s> :<C-u>write<CR>
+  inoremap jk <ESC>
   "smart move
   nnoremap j gj
   nnoremap k gk
