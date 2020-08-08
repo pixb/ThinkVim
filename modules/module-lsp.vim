@@ -43,24 +43,6 @@ if dein#tap('Dockerfile.vim')
         \})
 endif
 
-"haskell lsp config
-if dein#tap('haskell-vim')
-    call coc#config('languageserver', {
-      \ 'haskell': {
-        \ "command": "hie-wrapper",
-        \ "rootPatterns": [".stack.yaml","cabal.config","package.yaml"],
-        \ "filetypes": ["hs","lhs","haskell"],
-        \ "initializationOptions":{},
-        \ "settings":{
-          \ "languageServerHaskell":{
-            \ "hlintOn":"true",
-            \ "maxNumberOfProblems":10,
-            \ "completionSnippetsOn": "true"
-        \ }
-        \ }
-        \ }
-        \})
-endif
 
 "lua lsp config
 "https://github.com/Alloyed/lua-lsp
@@ -109,10 +91,6 @@ if dein#tap('vim-sh')
         \})
 endif
 
-"R lsp config
-if dein#tap('Nvim-R')
-    call coc#add_extension('coc-R')
-endif
 
 "Ruby lsp config
 if dein#tap('vim-ruby')
