@@ -3,6 +3,7 @@
 ## Ready
 
 - python3
+
   ```shell
   sudo pacman -S python3
   ```
@@ -13,6 +14,7 @@
   python3 python get-pip.py
   ```
 - nodejs, npm
+
   ```shell
   sudo pacman -S nodejs npm
   sudo npm install -g neovim
@@ -23,8 +25,18 @@
   sudo pacman -S yarn
   sudo yarn global add neovim
   ```
+- ruby
+
+```
+ pc sudo pacman -S ruby
+ pc gem install neovim
+ pc gem environment
+```
+
+<++>
 
 - ripgrep
+
   ```shell
   sudo pacman -S ripgrep
   ```
@@ -35,14 +47,13 @@
   ```
 - pynvim
   ```shell
-  sudo pip3 install  Pynvim
+  pip3 install  Pynvim
+  pip3 install --user PyYAML
   ```
 - lazygit
   ```shell
   sudo pacman -S lazygit
   ```
-
-
 
 ## checkout
 
@@ -51,5 +62,3 @@ git clone https://github.com/pixb/ThinkVim.git  ~/.config/nvim
 cd ~/.config/nvim
 bash scripts/install.sh
 ```
-
-

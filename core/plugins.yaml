@@ -73,8 +73,8 @@
   depends: vim-markdown
   on_ft: markdown
   hook_add: |
-    let g:gfm_syntax_enable_always = 0
-    let g:gfm_syntax_highlight_emoji = 0
+    let g:gfm_syntax_enable_always = 1
+    let g:gfm_syntax_highlight_emoji = 1
     let g:gfm_syntax_enable_filetypes = ['markdown']
 
 - repo: iamcco/markdown-preview.nvim
@@ -139,6 +139,7 @@
         \       "outputter" : "message",
         \   },
         \}
+    let g:quickrun_config.html = {'command' : 'chromium'}
     let g:quickrun_no_default_key_mappings = 1
 
 - repo: simnalamburt/vim-mundo
