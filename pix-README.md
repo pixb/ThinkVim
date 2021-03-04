@@ -29,11 +29,9 @@
 
 ```
  pc sudo pacman -S ruby
- pc gem install neovim
- pc gem environment
+ pc sudo gem install neovim
+ pc sudo gem environment
 ```
-
-<++>
 
 - ripgrep
 
@@ -47,8 +45,8 @@
   ```
 - pynvim
   ```shell
-  pip3 install  Pynvim
-  pip3 install --user PyYAML
+  pc sudo pip3 install  Pynvim
+  pc sudo pip3 install --user PyYAML
   ```
 - lazygit
   ```shell
