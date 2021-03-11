@@ -1,4 +1,4 @@
 
 # Go support
 # LanguageServerProtocol used by gopls
-- { repo: pixb/go-nvim,on_ft: [ go ,gomod ]}
+# - { repo: pixb/go-nvim,on_ft: [ go ,gomod ]}
