@@ -6,17 +6,17 @@
 # Editor UI{{{
 - repo: ryanoasis/vim-devicons
 
-- repo: hardcoreplayers/oceanic-material
+- repo: glepnir/oceanic-material
 
-- repo: hardcoreplayers/spaceline.vim
+- repo: glepnir/spaceline.vim
   on_event: [ BufReadPre,BufNew ]
   hook_add:
     let g:spaceline_seperate_style= 'slant-cons'
 
-- repo: hardcoreplayers/vim-buffet
+- repo: pixb/vim-buffet
   on_event: [ BufReadPre, BufNew ]
 
-- repo: hardcoreplayers/dashboard-nvim
+- repo: glepnir/dashboard-nvim
   hook_add: source  $VIM_PATH/modules/module-dashboard.vim
 #}}}
 
@@ -82,7 +82,7 @@
   build: 'sh -c "cd app & yarn install"'
   hook_source: |
       let g:mkdp_auto_start = 0
-      let g:mkdp_browser="/usr/bin/chromium"
+      let g:mkdp_browser="/usr/bin/google-chrome-stable"
 # }}}
 
 # Code{{{
