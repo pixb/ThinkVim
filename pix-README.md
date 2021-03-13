@@ -47,6 +47,7 @@
   ```shell
   pc sudo pip3 install  Pynvim
   pc sudo pip3 install --user PyYAML
+  pc sudo pip3 install --user Send2Trash
   ```
 - lazygit
   ```shell
